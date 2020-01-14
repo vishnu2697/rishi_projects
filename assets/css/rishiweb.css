@@ -3,7 +3,7 @@
 }
 .Rishi-Sher-Singh {
         width: 455px;
-        height: 80px;
+        height: 81px;
         font-family: SegoeUI;
         font-size: 60px;
         font-weight: bold;
@@ -297,6 +297,88 @@ button{
 .icon-second-row{
   margin-top: 138px;
 }
+.Electronics {
+  width: 97px;
+  height: 27px;
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.mica{
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Automative{
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Garments{
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Pharma {
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Telecom {
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Recycling {
+  width: 86px;
+  height: 27px;
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
 .sector-background-color{
   background-color: #e9e6e6;
   padding-left: 75px;
@@ -337,6 +419,67 @@ button{
   text-align: left;
   padding-bottom: 100px;
   color: #666565;
+}
+.rishi-network-background-color{
+  background-image: linear-gradient(to bottom, #001f7e, #214dd0);
+}
+.Rishis-Network-Still-its-Growing {
+  padding-left: 138px;
+  padding-right: 182px;
+  padding-top: 100px;
+  font-family: SegoeUI;
+  font-size: 45px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.RIshi-networking-description{
+  padding-right: 76px;
+  padding-left: 147px;
+  font-family: SegoeUI;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left ;
+  color: #ffffff;
+
+
+}
+.tech-peo-tech-padding{
+  padding-left: 140px;
+}
+.Technology {
+  width: 135px;
+  height: 33px;
+  font-family: SegoeUI;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.People {
+  width: 80px;
+  height: 33px;
+  font-family: SegoeUI;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
 }
 
 
