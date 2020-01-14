@@ -1,19 +1,43 @@
+.navbar-nav {
+  margin-left: auto;
+}
+.log{
+  color: #001f7e;
+  margin-top: 4px;
+  font-size: 20px;
+
+}
+a.nav-link{
+  font-size: 20px;
+  color: black !important;
+  font-weight: bold;
+  padding-right: 35px !important;
+ }
+.navbar{
+ padding: 0px 60px 0px 80px;
+ height: 110px;
+ background-color: white;
+ -webkit-box-shadow: 0px 4px 18px -8px rgba(190, 187, 187, 0.75);
+ -moz-box-shadow: 0px 4px 18px -8px rgba(190, 187, 187, 0.75);
+  box-shadow: 0px 4px 18px -8px rgba(190, 187, 187, 0.75);
+}
+
 .left-side-padding{
   padding-left: 6%;
 }
 .Rishi-Sher-Singh {
-        width: 455px;
-        height: 81px;
-        font-family: SegoeUI;
-        font-size: 60px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.33;
-        letter-spacing: normal;
-        text-align: left;
-        color: #be0029!important;
- }
+   width: 455px;
+   height: 81px;
+   font-family: SegoeUI;
+   font-size: 60px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.33;
+   letter-spacing: normal;
+   text-align: left;
+   color: #be0029!important;
+}
 .Specialist-in-Global-Value-Chains {
    width: 555px;
   height: 160px;
@@ -28,21 +52,16 @@
   color: #1a1919;
   }
 button{
-  width: 212px!important;
-  height: 73px!important;
   background-color: #be0029;
 }
 .letstalk{
   font-family: SegoeUI;
   font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.32;
-  letter-spacing: normal;
-  text-align: left;
   color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
  }
 .Beyond-Business-of-Business{
   width: 499px;
@@ -57,7 +76,7 @@ button{
   letter-spacing: normal;
   text-align: left;
   color: #e0dfdf;
-  margin-top: 110px;
+  margin-top: 73px;
  }
  .rishi-image-right{
   margin-left: 10%;
@@ -88,11 +107,7 @@ button{
   border-radius: 50%;
   padding: 1% 1% 1% 1%;
 }
-.container-fluid{
-  height:100%;
-  margin:0;
-  
-}
+
 .first-row-about{
   height:50%;
 }
@@ -116,6 +131,7 @@ button{
   font-size: 20px;
   padding-right: 154px;
   padding-left: 40px;
+  padding-top: 41px!important;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -288,9 +304,9 @@ button{
   text-align: left;
   color: #5d5d5d;
 }
-.mrg-icon-gap{
+/* .mrg-icon-gap{
   margin-top: 150px;
-}
+} */
 .sector-icon-in-same-line{
   padding-top: 150px;
 }
@@ -439,7 +455,7 @@ button{
 }
 .RIshi-networking-description{
   padding-right: 76px;
-  padding-left: 147px;
+  padding-left: 137px;
   font-family: SegoeUI;
   font-size: 17px;
   font-weight: normal;
@@ -481,6 +497,236 @@ button{
   text-align: left;
   color: #ffffff;
 }
+.Mentors {
+  width: 99px;
+  height: 33px;
+  font-family: SegoeUI;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Client {
+  width: 68px;
+  height: 33px;
+  font-family: SegoeUI;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
 
+.content {
+  position: relative;
+  text-align: center;
+  color: white;
+ width: 20%;
+}
+.SPEAKING {
+  position: absolute;
+  width: 146px;
+  height: 40px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+.TRAINING{
+  position: absolute;
+  width: 146px;
+  height: 40px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.THINKING{
+  position: absolute;
+  width: 146px;
+  height: 40px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.VIDEOS {
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.COACHING {
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.videoshd{
+  font-size: 35px;
+  font-weight: 900;
+  color: #001f7e;
+}
+.container{
+ max-width: 87%;
+}
+.videos{
+  margin-top: 100px;
+}
+.lorem{
+  font-size: 19px;
+  color: #151515;
+  font-weight: 300;
+  font-family: 'SegoeUI';
+  list-style: square;
+  padding-top: 42px;
+}
+.httpslink-color{
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ec3124;
+}
 
-/* } */
+/* card */
+#testi{
+  margin-top: 100px;
+}
+.testihd{
+  text-align: center;
+  font-size: 45px;
+font-weight: 900;
+color: #001f7e;
+
+}
+.card{
+  border-radius: 5px;
+box-shadow: 0 15px 20px 0 rgba(118, 130, 183, 0.18);
+background-color: #ffffff;
+
+}
+.cardlorem{
+  font-family: 'SegoeUI';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #151d41;
+  margin: 0px 263px;
+}
+.john{
+  font-family: 'SegoeUI';
+font-size: 30px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+text-align: center;
+color: #151d41; 
+padding-top: 37px;
+}
+
+.sym{
+  font-size: 200px;
+  font-family: 'PerpetuaTitlingMT';
+  color: #0f2cbf;
+  text-align: center;
+  margin-bottom: -90px;
+  margin-top: -25px;
+}
+
+/* footer */
+.footermargin{
+  margin-top: 200px;
+}
+.ceneter{
+  margin-left: 100px;
+} 
+
+footer{ background:#f8f8f9; width: 100%; margin:auto; padding:61px 0px 20px 0px;}
+.hds{
+  height: 27px;
+  font-family:'SegoeUI';
+  font-size: 20px;
+  font-weight: bold;
+  color: #292828;
+}
+
+.ftr-lnks{ font-size:14px; line-height:25px; color:#505050; padding:10px 0px;}
+.ftr-lnks a{ display:inline-block; font-size:14px; text-decoration:none; color:#505050; padding-left: 0px; padding-right: 0px;}
+.ftr-copy{ font-size:14px; line-height:25px; color:#505050; padding:10px 0px;}
+
+.ftr-scl{ margin-bottom:30px; margin-top: 70px; margin-left: 46%;}
+.ftr-scl a {
+ display:inline-block;
+  margin-right:5px; 
+  padding-left: 0px;
+ 
+}
+.ftr-scl a img{ 
+  opacity:0.5;
+  color: gray;
+  width: 38px;
+  height: 38px;
+}
+.icon-sizes{
+  width: 38px;
+  height: 38px;
+}
+.ftr-scl a img:hover{ opacity:1;}
