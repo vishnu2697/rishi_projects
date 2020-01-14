@@ -1,0 +1,212 @@
+.navbar {
+  background-color: #f5eded!important;
+  box-shadow: 0 0 16px 0 rgba(153, 90, 90, 0.18)!important;
+  background-color: #ffffff!important;
+}
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 46px; 
+}
+.navbar-brand{
+  font-size: 20px;
+}
+.nav{
+ margin-right: 90px;
+ 
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+li >a{
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1c1c;
+ 
+}
+  @media screen and (min-width: 1367px) and (max-width:1920px) {
+
+    .column-padding{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .Rishi-Sher-Singh-image-height{
+      height: 766px!important;
+      width: 766px!important;
+    
+     }
+
+    .Rishi-Sher-Singh-name {
+      width: 455px;
+      height: 80px;
+      font-family: SegoeUI;
+      font-size: 60px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #be0029;
+    }
+    .Lets-Talk {
+      font-family: SegoeUI;
+      font-size: 28px;
+     padding: 25px 27px 25px 27px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.32;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      background-color: rgb(128, 33, 33);
+    }
+    .Specialist-in-Global-Value-Chains {
+      width: 555px;
+      height: 160px;
+      font-family: SegoeUI;
+      font-size: 60px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1a1919;
+    }
+  .Beyond-Business-of-Business {
+      width: 499px;
+      height: 396px;
+      opacity: 0.57;
+      margin-top: 77px;
+      font-family: SegoeUI;
+      font-size: 89px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      color: #e0dfdf;
+    }
+  .Rishi-Sher-Singh-image-height{
+     height: 766px;
+     width: 766px;
+     float: right;
+    }
+    .icons-row{
+        margin-top: 50px;
+        margin-right: 32px;
+    }
+    .fa.pull-right {
+      margin-left: 2.3em!important;
+  }
+  .fa-youtube-play{
+      border-width: 3px;
+      border-style: solid;
+      border-image: initial;
+      border-radius: 50% 50% 50% 50%;
+      padding: 2% 2% 2% 2%;
+      width: 43px;
+      height: 43px;
+      border: solid 1px #f53f3f;
+      color: red;
+  }
+    
+  .fa.fa-twitter{
+      border-width: 3px;
+      border-style: solid;
+      border-image: initial;
+      border-radius: 50% 50% 50% 50%;
+      padding: 2% 2% 2% 2%;
+      width: 43px;
+      height: 43px;
+      border: solid 1px #0eb1c3;
+      color: red;
+   }
+  .fa.fa-linkedin{
+      border-width: 3px;
+      border-style: solid;
+      border-image: initial;
+      border-radius: 50% 50% 50% 50%;
+      padding: 2% 2% 2% 2%;
+      width: 43px;
+      height: 43px;
+      border: solid 1px #f53f3f;
+      color: red;
+   }
+   
+   .About-details{
+    background-image: linear-gradient(to right, #012169 23%, #0f3fad);
+    padding: 178px 154px  114px 50px;
+    font-family: SegoeUI;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+   }
+   .project-total-people-research-padding{
+       padding: 50px 0px 40px 20px;
+   }
+   .Project-Implimented {
+      font-family: SegoeUI;
+      font-size: 30px;
+  
+      font-weight: 900;
+      font-style: normal;
+      color: #001f7e;
+    }
+    .Total-Value-of-Project-Managed { 
+     font-size: 30px;
+     font-weight: bolder;
+      line-height: 1.37;
+      letter-spacing: normal;
+      text-align: left;
+      color: #001f7e;
+    }
+    .People-Trained-Directly {
+      font-size: 30px;
+      font-weight: bolder;
+      font-style: normal;
+      color: #001f7e;
+    }
+    .Research-Project {
+      width: 132px;
+      height: 81px;
+      font-family: SegoeUI;
+      font-size: 30px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.37;
+      letter-spacing: normal;
+      text-align: left;
+      color: #001f7e;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1366px) {
+    .display-desk-tab {
+        display: block;
+    }
+
+    .display-mobile {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+  
+}

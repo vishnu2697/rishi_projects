@@ -1,0 +1,36 @@
+       <div class="row industriestext">
+               <div class="col-md-3 ">
+                   <img class="imagesizes" src="./images/icons8_google_sketchup_52px.png" alt="Information Technology">
+                   <span class="informationtechnology text-center" id="informationtechnology">Information Technology</span>
+                </div>
+               <div class="col-md-3 ">
+                   <img class="imagesizes"  src="./images/icons8_food_60px@2x.png" alt="Food & Beverages">
+                   <span class="informationtechnology ml-2 text-center" id="informationtechnology">Food & Beverages</span>
+                </div>
+               <div class="col-md-3 pr-1 pull-right">
+                   <img class="imagesizes" src="./images/banking and finance.png" alt="banking and finance">
+                    <span class="informationtechnology text-center ml-2" id="informationtechnology">Banking & Finance</span>
+                 </div>
+               <div class="col-md-3 pl-0 ">
+                   <img class="imagesizes" src="./images/education.png" alt=" education"> 
+                        <span class="informationtechnology ml-2 text-centerid="informationtechnology">Education</span>
+                 </div>
+            </div> 
+            <div class="row industriestext casestudybelowbottom">
+              <div class="col-md-3  pr-1">
+                 <img class="imagesizes"  src="./images/hospitality.png" alt="hosipitality">
+                 <span class="informationtechnology ml-2" id="informationtechnology">Healthcare</span>
+                </div>
+              <div class="col-md-3  pr-1">
+                 <img class="imagesizes p-0" src="./images/healthcare.png" alt="healthcare"> 
+                 <span class="informationtechnology ml-2"id="informationtechnology">Hospitality</span>
+                 </div>
+              <div class="col-md-3  pr-1">
+                 <img class="imagesizes p-0" src="./images/retailicon.png" alt="">
+                  <span class="informationtechnology ml-2"id="informationtechnology">Retail</span>
+                 </div>
+            </div> 
+            </div>  
+          <div class="clr"></div>
+       
+    </div>

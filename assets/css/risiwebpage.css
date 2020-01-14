@@ -1,0 +1,143 @@
+
+.fist-rishi-padding{
+    padding-left: 5%;
+}
+ .Rishi-Sher-Singh{
+        color: red ;
+        font-size: 60px;
+ }
+ .Specialist-in-Global-Value-Chains{
+     font-size: 40px;
+     color: black;
+     font-weight: 900;
+     font-style: normal;
+ }
+ .letstalk{
+     background-color: brown;
+     color: white;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     padding-left: 40px;
+     padding-right: 40px;   
+ }
+ .Beyond-Business-of-Business{
+     font-size: 100px;
+     color: gray;
+     margin-top: 100px;
+     line-height: 1.5;
+ }
+.icons-mrg-top{
+    margin-top: 30px;
+   margin-left: 70%;
+} 
+ .icon-youtube{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 1% 1% 1% 1%; 
+    padding-right: 2px;
+ }
+ .icon-twitter{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 1% 1% 1% 1%;  
+ }
+ .icon-linkedin{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 1% 1% 1% 1%; 
+ }
+ .container-fluid {
+    display: flex;
+    /* justify-content: center; */
+  }
+
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .thumbnails li {
+    flex: auto;
+  }
+
+  .thubnails a {
+    display: block;
+  }
+
+  .thumbnails img {
+    width: 30vmin;
+    height: 20vmin;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 230px;
+  }
+  .col-md-6 {
+    padding-left: 0px;
+  }
+
+  .slides {
+    overflow: hidden;
+    width: 100vmin;
+    height: 99vmin;
+  }
+  .slides li {
+    width: 100vmin;
+    height: 100vmin;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .slides img {
+    height: 99vmin;
+    width: 100vmin;
+    object-fit: cover;
+    object-position: top;
+  }
+  span {
+    font-size: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 370px;
+    top: -65px;
+    color:#000000;
+  }
+
+  .slides li:target {
+    z-index: 3;
+    -webkit-animation: slide 1s 1;
+  }
+
+  .slides li:not(:target) {
+    -webkit-animation: hidden 1s 1;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  @keyframes hidden {
+    0% {
+      z-index: 2;
+    }
+    100% {
+      z-index: 2;
+    }
+  }
+.coursers-of-padding{
+    color: blue;
+    fon
+} 
+

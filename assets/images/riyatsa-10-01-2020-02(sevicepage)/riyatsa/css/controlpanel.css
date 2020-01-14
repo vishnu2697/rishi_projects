@@ -1,0 +1,49 @@
+body {
+	font-family:Dinpro; 
+	background-color: #e7e5e6;
+}
+
+
+.log{
+    width: 70%;
+    margin-top: 40px;
+    float: right;
+}
+
+.head{
+    text-align: left;
+    margin-top: 50px;
+    color: rgb(107, 106, 106);
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover{
+	background-color: transparent;
+	border-color: transparent;
+	color: #000000;
+}
+
+.nav-tabs .nav-link.active > span {
+	border-bottom: 5px solid #000000;
+	transition: ease-in-out .2s;
+}
+
+.nav-tabs .nav-link > span {
+	transition: ease-in-out .2s;	
+}
+
+.nav-link {
+	font-size: 13px;
+	color: #807e7e;
+}
+
+.container-header {
+	max-width: 90%;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 1367px) {
+	
+}

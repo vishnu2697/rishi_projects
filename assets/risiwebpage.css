@@ -1,0 +1,82 @@
+
+@media screen and (min-width:1367px) and (max-width:1920px)
+{
+.fist-rishi-padding{
+    padding-left: 5%;
+}
+ .Rishi-Sher-Singh{
+    width: 455px;
+    height: 80px;
+    font-family: SegoeUI;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #be0029;
+ }
+ .Specialist-in-Global-Value-Chains{
+    width: 555px;
+    height: 160px;
+    font-family: SegoeUI;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1919;
+ }
+ .letstalk{
+    width: 212px;
+    height: 73px;
+    background-color: #be0029;  
+ }
+ .Beyond-Business-of-Business{
+    width: 499px;
+  height: 396px;
+  opacity: 0.57;
+  font-family: SegoeUI;
+  font-size: 89px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e0dfdf;
+ }
+.icons-mrg-top{
+    margin-top: 30px;
+   margin-left: 70%;
+} 
+ .icon-youtube{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 1% 1% 1% 1%; 
+    padding-right: 2px;
+ }
+ .icon-twitter{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 1% 1% 1% 1%;  
+ }
+ .icon-linkedin{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 1% 1% 1% 1%; 
+ }
+
+
+
+
+}

@@ -1,0 +1,19 @@
+<section>
+   <div class="w-50 fl-1" style="float: left;">
+    <div class="container">
+       <div class="name" style="padding-bottom:30px">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eaque nostrum officia dolor facilis rem laudantium ad explicabo sed doloremque, quas corporis quos, perferendis reiciendis, assumenda mollitia? Odio, aut accusamus?
+           <ul style=" padding: 0;
+           list-style: none;
+           margin: 0px;" >
+               <li><img src="./images/discovery-consultancy.png" alt=""><span>Web-Based CRMs</span></li>
+           </ul>
+       </div>
+       
+    </div>
+   </div>
+   <div class="w-50" style="float: left;">
+       <div class=""><img  src="./images/chartclose.png" alt="" style="max-width: 100%;"></div>
+   </div>
+   </div>
+</section>
