@@ -1,4 +1,6 @@
-
+ li >a{
+    color: white;
+}
 @media screen and (min-width:1367px) and (max-width:1920px)
 {
 .fist-rishi-padding{
@@ -80,3 +82,281 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.jquery-az.com/boots/demo.php?ex=8.0_4
+
+courosel
+------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+      rel="stylesheet"
+    /> -->
+    <style>
+      html {
+        box-sizing: border-box;
+        height: 100%;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container-fluid {
+        display: flex;
+        /* justify-content: center; */
+      }
+
+      .thumbnails {
+        display: flex;
+        flex-direction: column;
+        line-height: 0;
+        margin-top: 20px;
+        /* margin-bottom: 30px; */
+      }
+      .thumbnails li {
+        flex: auto;
+      }
+
+      .thubnails a {
+        display: block;
+      }
+
+      .thumbnails img {
+        width: 30vmin;
+        height: 20vmin;
+        object-fit: cover;
+        object-position: top;
+        margin-left: 100px;
+      }
+      .col-md-6 {
+        padding-left: 0px;
+      }
+
+      .slides {
+        overflow: hidden;
+        width: 100vmin;
+        height: 99vmin;
+      }
+      .slides li {
+        width: 100vmin;
+        height: 100vmin;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .slides img {
+        height: 99vmin;
+        width: 110vmin;
+        object-fit: cover;
+        object-position: top;
+      }
+      span {
+        font-size: 60px;
+        font-weight: lighter;
+        position: absolute;
+        bottom: 50px;
+        left: 215px;
+        color:#ffffff;
+      }
+
+      .slides li:target {
+        z-index: 3;
+        -webkit-animation: slide 1s 1;
+      }
+
+      .slides li:not(:target) {
+        -webkit-animation: hidden 1s 1;
+      }
+
+      @keyframes slide {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(0%);
+        }
+      }
+
+      @keyframes hidden {
+        0% {
+          z-index: 2;
+        }
+        100% {
+          z-index: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-md-6"
+          style="background-color: rgb(42, 72, 160); height:100vmin"
+        >
+          <ul class="thumbnails">
+            <a href="#thumbnails">
+              <span class="glyphicon glyphicon-menu-up"></span>
+            </a>
+            <li>
+              <a href="#slide1"><img src="1.jpg"/></a>
+            </li>
+            <li>
+              <a href="#slide2"><img src="2.jpg"/></a>
+            </li>
+            <li>
+              <a href="#slide3"><img src="3.jpg"/></a>
+            </li>
+            <li>
+              <a href="#slide4"><img src="4.jpg"/></a>
+            </li>
+            <a href="#thumbnails">
+                <span
+                  class="glyphicon glyphicon-menu-down"
+                  
+                ></span>
+              </a>
+           
+              <!-- <li>
+                <a href="#slide5"><img src="5.jpg"/></a>
+              </li>
+              <li>
+                <a href="#slide6"><img src="6.jpg"/></a>
+              </li>
+              <li>
+                <a href="#slide7"><img src="7.jpg"/></a>
+              </li>
+              <li>
+                <a href="#slide8"><img src="8.jpg"/></a>
+              </li> -->
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="slides">
+            <li id="slide1"><img src="1.jpg" alt="" /></li>
+            <li id="slide2"><img src="2.jpg" alt="" /></li>
+            <li id="slide3"><img src="3.jpg" alt="" /></li>
+            <li id="slide4"><img src="4.jpg" alt="" /></li>
+            <li id="slide5"><img src="5.jpg" alt="" /></li>
+            <li id="slide6"><img src="6.jpg" alt="" /></li>
+            <li id="slide7"><img src="7.jpg" alt="" /></li>
+            <li id="slide8"><img src="8.jpg" alt="" /></li>
+          </ul>
+
+          <!-- <a class="left carousel-control" href="#theCarousel" data-slide="prev"
+            ><i class="glyphicon glyphicon-menu-up"></i
+          ></a> -->
+
+          <!-- <a href="#thumbnails">
+            <span
+              class="glyphicon glyphicon-menu-down"
+              style="background-color:red"
+            ></span>
+          </a> -->
+          <!-- <a
+            class="right carousel-control"
+            href="#thumbnails"
+            data-slide="next"
+            ><i class="glyphicon glyphicon-menu-down"></i
+          ></a> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+-------------end of  courosel-------------
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        .container-fluid{
+            height:100%;
+            margin:0;
+            
+        }
+        .row{
+            height:50%;
+        }
+        .col-md-8{
+            padding-left:0px;
+        }
+    </style>
+  </head>
+  <body>
+    
+  </body>
+</html>
+
+
+
